@@ -25,7 +25,7 @@ BOT_TOKENS = [token.strip() for token in BOT_TOKENS]
 
 
 # Maximum file size (in GBs) allowed for uploading to Telegram
-MAX_FILE_SIZE = float(os.getenv("MAX_FILE_SIZE", 4.0)) * 1024 * 1024 * 1024
+MAX_FILE_SIZE = float(os.getenv("MAX_FILE_SIZE", 3.8)) * 1024 * 1024 * 1024
 
 # Chat ID of the Telegram storage channel where files will be stored
 STORAGE_CHANNEL = int(os.getenv("STORAGE_CHANNEL"))  # Your storage channel's chat ID
